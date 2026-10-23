@@ -40,6 +40,16 @@ Offline reports are explicitly marked as **LOCAL DEMO FILE (NOT LIVE)**.
 
 The workflow is set to run daily at **5:17 a.m. America/New_York**. GitHub scheduled jobs can be delayed or occasionally skipped.
 
+### Retrieve the report through ChatGPT's connected GitHub app
+
+Each successful workflow now commits updated output to:
+- [data/uv-brief.txt](data/uv-brief.txt) — human-readable UV forecast for ChatGPT.
+- [data/uv-data.json](data/uv-data.json) — structured data for more advanced tooling.
+
+This is a fallback for when ChatGPT cannot fetch the public GitHub Pages site. The first run after enabling this feature is required before those two files exist.
+
+In your scheduled briefing, tell ChatGPT to use its connected GitHub app to read `data/uv-brief.txt` from `csholander-design/fort-desoto-uv`, confirm its Generated timestamp and date coverage, and incorporate the UV threshold intervals. If the file is stale or inaccessible, disclose that limitation. The regular public webpage continues to work independently.
+
 ### Incorporate into your ChatGPT daily briefing
 
 Once the published report can be read from ChatGPT, add this instruction to your Fort De Soto Daily Briefing prompt:
