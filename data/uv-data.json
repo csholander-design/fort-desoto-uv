@@ -1,5 +1,5 @@
 {
-  "generated_et": "2026-11-02 03:23 PM EST",
+  "generated_et": "2026-11-03 12:51 PM EST",
   "source": "https://api.open-meteo.com/v1/forecast?latitude=27.643&longitude=-82.742&hourly=uv_index%2Cuv_index_clear_sky&daily=sunrise%2Csunset&timezone=America%2FNew_York&forecast_days=4",
   "requested_coordinates": [
     27.643,
@@ -11,144 +11,68 @@
   ],
   "days": [
     {
-      "date": "2026-11-02",
-      "daily_max": 3.75,
-      "daily_clear_sky_max": 5.85,
-      "sunrise": "2026-11-02T06:42",
-      "sunset": "2026-11-02T17:46",
-      "morning_uv4_interval": null,
-      "morning_uv4_clear_sky_interval": "10 AM\u201311 AM",
-      "morning_summary": "Expected UV forecast stays below 4 throughout the day",
-      "suggested_departure": "For extra caution if clouds clear, aim to leave by 9:30 AM\u20139:45 AM",
-      "evening_first_uv3_hour": null,
-      "evening_first_clear_sky_uv3_hour": "4 PM",
-      "evening_summary": "Expected UV remains below 4; check clear-sky hourly readings",
-      "hourly": [
-        {
-          "hour": 8,
-          "uv": 0.25,
-          "clear": 0.55
-        },
-        {
-          "hour": 9,
-          "uv": 0.9,
-          "clear": 1.85
-        },
-        {
-          "hour": 10,
-          "uv": 1.9,
-          "clear": 3.45
-        },
-        {
-          "hour": 11,
-          "uv": 3.15,
-          "clear": 4.85
-        },
-        {
-          "hour": 12,
-          "uv": 2.4,
-          "clear": 5.7
-        },
-        {
-          "hour": 13,
-          "uv": 3.25,
-          "clear": 5.85
-        },
-        {
-          "hour": 14,
-          "uv": 3.75,
-          "clear": 5.35
-        },
-        {
-          "hour": 15,
-          "uv": 3.0,
-          "clear": 4.2
-        },
-        {
-          "hour": 16,
-          "uv": 1.65,
-          "clear": 2.65
-        },
-        {
-          "hour": 17,
-          "uv": 0.55,
-          "clear": 1.15
-        },
-        {
-          "hour": 18,
-          "uv": 0.1,
-          "clear": 0.15
-        },
-        {
-          "hour": 19,
-          "uv": 0.0,
-          "clear": 0.0
-        }
-      ]
-    },
-    {
       "date": "2026-11-03",
-      "daily_max": 5.8,
+      "daily_max": 5.65,
       "daily_clear_sky_max": 5.9,
       "sunrise": "2026-11-03T06:43",
       "sunset": "2026-11-03T17:45",
-      "morning_uv4_interval": "10 AM\u201311 AM",
+      "morning_uv4_interval": "12 PM\u20131 PM",
       "morning_uv4_clear_sky_interval": "10 AM\u201311 AM",
-      "morning_summary": "UV first reaches 4 during 10 AM\u201311 AM",
-      "suggested_departure": "Aim to leave by 9:30 AM\u20139:45 AM",
+      "morning_summary": "UV first reaches 4 during 12 PM\u20131 PM",
+      "suggested_departure": "Aim to leave by 11:30 AM\u201311:45 AM",
       "evening_first_uv3_hour": "4 PM",
       "evening_first_clear_sky_uv3_hour": "4 PM",
       "evening_summary": "UV is 3 or below by 4 PM",
       "hourly": [
         {
           "hour": 8,
-          "uv": 0.5,
+          "uv": 0.55,
           "clear": 0.55
         },
         {
           "hour": 9,
-          "uv": 1.7,
+          "uv": 1.8,
           "clear": 1.9
         },
         {
           "hour": 10,
-          "uv": 3.25,
+          "uv": 3.1,
           "clear": 3.5
         },
         {
           "hour": 11,
-          "uv": 4.5,
+          "uv": 2.05,
           "clear": 4.85
         },
         {
           "hour": 12,
-          "uv": 5.6,
+          "uv": 3.5,
           "clear": 5.75
         },
         {
           "hour": 13,
-          "uv": 5.8,
+          "uv": 5.65,
           "clear": 5.9
         },
         {
           "hour": 14,
-          "uv": 5.35,
+          "uv": 5.25,
           "clear": 5.35
         },
         {
           "hour": 15,
-          "uv": 4.15,
+          "uv": 3.95,
           "clear": 4.2
         },
         {
           "hour": 16,
-          "uv": 2.65,
+          "uv": 2.45,
           "clear": 2.65
         },
         {
           "hour": 17,
-          "uv": 1.1,
-          "clear": 1.15
+          "uv": 1.05,
+          "clear": 1.1
         },
         {
           "hour": 18,
@@ -164,7 +88,7 @@
     },
     {
       "date": "2026-11-04",
-      "daily_max": 5.9,
+      "daily_max": 5.7,
       "daily_clear_sky_max": 5.9,
       "sunrise": "2026-11-04T06:43",
       "sunset": "2026-11-04T17:44",
@@ -178,57 +102,57 @@
       "hourly": [
         {
           "hour": 8,
-          "uv": 0.55,
+          "uv": 0.5,
           "clear": 0.55
         },
         {
           "hour": 9,
-          "uv": 1.85,
+          "uv": 1.8,
           "clear": 1.85
         },
         {
           "hour": 10,
-          "uv": 3.45,
+          "uv": 3.15,
           "clear": 3.45
         },
         {
           "hour": 11,
-          "uv": 4.85,
+          "uv": 4.55,
           "clear": 4.85
         },
         {
           "hour": 12,
-          "uv": 5.7,
+          "uv": 5.55,
           "clear": 5.7
         },
         {
           "hour": 13,
-          "uv": 5.9,
+          "uv": 5.7,
           "clear": 5.9
         },
         {
           "hour": 14,
-          "uv": 5.35,
+          "uv": 4.85,
           "clear": 5.35
         },
         {
           "hour": 15,
-          "uv": 3.65,
-          "clear": 4.2
+          "uv": 3.3,
+          "clear": 4.15
         },
         {
           "hour": 16,
-          "uv": 2.35,
+          "uv": 1.7,
           "clear": 2.65
         },
         {
           "hour": 17,
-          "uv": 0.9,
+          "uv": 0.85,
           "clear": 1.1
         },
         {
           "hour": 18,
-          "uv": 0.1,
+          "uv": 0.15,
           "clear": 0.15
         },
         {
@@ -289,22 +213,98 @@
         },
         {
           "hour": 15,
-          "uv": 4.2,
+          "uv": 3.85,
           "clear": 4.2
         },
         {
           "hour": 16,
-          "uv": 2.5,
+          "uv": 2.05,
           "clear": 2.65
         },
         {
           "hour": 17,
-          "uv": 1.0,
+          "uv": 0.8,
           "clear": 1.1
         },
         {
           "hour": 18,
           "uv": 0.1,
+          "clear": 0.15
+        },
+        {
+          "hour": 19,
+          "uv": 0.0,
+          "clear": 0.0
+        }
+      ]
+    },
+    {
+      "date": "2026-11-06",
+      "daily_max": 5.9,
+      "daily_clear_sky_max": 5.9,
+      "sunrise": "2026-11-06T06:45",
+      "sunset": "2026-11-06T17:43",
+      "morning_uv4_interval": "10 AM\u201311 AM",
+      "morning_uv4_clear_sky_interval": "10 AM\u201311 AM",
+      "morning_summary": "UV first reaches 4 during 10 AM\u201311 AM",
+      "suggested_departure": "Aim to leave by 9:30 AM\u20139:45 AM",
+      "evening_first_uv3_hour": "4 PM",
+      "evening_first_clear_sky_uv3_hour": "4 PM",
+      "evening_summary": "UV is 3 or below by 4 PM",
+      "hourly": [
+        {
+          "hour": 8,
+          "uv": 0.5,
+          "clear": 0.5
+        },
+        {
+          "hour": 9,
+          "uv": 1.85,
+          "clear": 1.85
+        },
+        {
+          "hour": 10,
+          "uv": 3.45,
+          "clear": 3.45
+        },
+        {
+          "hour": 11,
+          "uv": 4.85,
+          "clear": 4.85
+        },
+        {
+          "hour": 12,
+          "uv": 5.7,
+          "clear": 5.7
+        },
+        {
+          "hour": 13,
+          "uv": 5.9,
+          "clear": 5.9
+        },
+        {
+          "hour": 14,
+          "uv": 5.35,
+          "clear": 5.35
+        },
+        {
+          "hour": 15,
+          "uv": 4.2,
+          "clear": 4.2
+        },
+        {
+          "hour": 16,
+          "uv": 2.65,
+          "clear": 2.65
+        },
+        {
+          "hour": 17,
+          "uv": 1.1,
+          "clear": 1.1
+        },
+        {
+          "hour": 18,
+          "uv": 0.15,
           "clear": 0.15
         },
         {
