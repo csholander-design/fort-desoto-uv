@@ -1,30 +1,9 @@
 FORT DE SOTO NORTH BEACH — HOURLY UV FORECAST
-Generated (Eastern): 2026-11-04 12:59 PM EST
+Generated (Eastern): 2026-11-05 01:02 PM EST
 Data source: https://api.open-meteo.com/v1/forecast?latitude=27.643&longitude=-82.742&hourly=uv_index%2Cuv_index_clear_sky&daily=sunrise%2Csunset&timezone=America%2FNew_York&forecast_days=4
 Requested coordinates: 27.643, -82.742; forecast grid: 27.675615, -82.738884
 Forecasts, not real-time measurements. UV <4 is a personal planning preference, not a safety guarantee.
 Use these values only if this report was updated recently; otherwise flag it as STALE.
-
-2026-11-04: expected max UV 5.85; clear-sky max 5.85
- Morning: UV first reaches 4 during 10 AM–11 AM.
- Suggested departure: Aim to leave by 9:30 AM–9:45 AM.
- Clear-sky UV-4 interval: 10 AM–11 AM.
- Evening: UV is 3 or below by 4 PM.
- Clear-sky UV ≤3 by: 4 PM.
- Sunrise: 2026-11-04T06:43; Sunset: 2026-11-04T17:44.
- Hourly Eastern time — expected UV / clear-sky UV:
-  8 AM: 0.55 / 0.55
-  9 AM: 1.85 / 1.85
-  10 AM: 3.40 / 3.45
-  11 AM: 4.60 / 4.85
-  12 PM: 5.70 / 5.70
-  1 PM: 5.85 / 5.85
-  2 PM: 4.90 / 5.35
-  3 PM: 3.60 / 4.15
-  4 PM: 2.35 / 2.65
-  5 PM: 1.05 / 1.10
-  6 PM: 0.15 / 0.15
-  7 PM: 0.00 / 0.00
 
 2026-11-05: expected max UV 5.9; clear-sky max 5.9
  Morning: UV first reaches 4 during 10 AM–11 AM.
@@ -34,7 +13,7 @@ Use these values only if this report was updated recently; otherwise flag it as 
  Clear-sky UV ≤3 by: 4 PM.
  Sunrise: 2026-11-05T06:44; Sunset: 2026-11-05T17:44.
  Hourly Eastern time — expected UV / clear-sky UV:
-  8 AM: 0.55 / 0.55
+  8 AM: 0.50 / 0.50
   9 AM: 1.85 / 1.85
   10 AM: 3.45 / 3.45
   11 AM: 4.85 / 4.85
@@ -55,10 +34,10 @@ Use these values only if this report was updated recently; otherwise flag it as 
  Clear-sky UV ≤3 by: 4 PM.
  Sunrise: 2026-11-06T06:45; Sunset: 2026-11-06T17:43.
  Hourly Eastern time — expected UV / clear-sky UV:
-  8 AM: 0.50 / 0.50
-  9 AM: 1.85 / 1.85
-  10 AM: 3.45 / 3.45
-  11 AM: 4.80 / 4.80
+  8 AM: 0.25 / 0.50
+  9 AM: 0.90 / 1.85
+  10 AM: 2.05 / 3.45
+  11 AM: 4.60 / 4.80
   12 PM: 5.70 / 5.70
   1 PM: 5.85 / 5.85
   2 PM: 5.35 / 5.35
@@ -87,5 +66,26 @@ Use these values only if this report was updated recently; otherwise flag it as 
   4 PM: 2.60 / 2.60
   5 PM: 1.10 / 1.10
   6 PM: 0.15 / 0.15
+  7 PM: 0.00 / 0.00
+
+2026-11-08: expected max UV 5.8; clear-sky max 5.8
+ Morning: UV first reaches 4 during 10 AM–11 AM.
+ Suggested departure: Aim to leave by 9:30 AM–9:45 AM.
+ Clear-sky UV-4 interval: 10 AM–11 AM.
+ Evening: UV is 3 or below by 4 PM.
+ Clear-sky UV ≤3 by: 4 PM.
+ Sunrise: 2026-11-08T06:46; Sunset: 2026-11-08T17:42.
+ Hourly Eastern time — expected UV / clear-sky UV:
+  8 AM: 0.50 / 0.50
+  9 AM: 1.80 / 1.80
+  10 AM: 3.40 / 3.40
+  11 AM: 4.75 / 4.75
+  12 PM: 5.65 / 5.65
+  1 PM: 5.80 / 5.80
+  2 PM: 5.25 / 5.25
+  3 PM: 4.10 / 4.10
+  4 PM: 2.50 / 2.55
+  5 PM: 1.00 / 1.05
+  6 PM: 0.10 / 0.10
   7 PM: 0.00 / 0.00
 
