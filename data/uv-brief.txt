@@ -1,32 +1,11 @@
 FORT DE SOTO NORTH BEACH — HOURLY UV FORECAST
-Generated (Eastern): 2026-11-11 12:54 PM EST
+Generated (Eastern): 2026-11-12 01:20 PM EST
 Data source: https://api.open-meteo.com/v1/forecast?latitude=27.643&longitude=-82.742&hourly=uv_index%2Cuv_index_clear_sky&daily=sunrise%2Csunset&timezone=America%2FNew_York&forecast_days=4
 Requested coordinates: 27.643, -82.742; forecast grid: 27.675615, -82.738884
 Forecasts, not real-time measurements. UV <4 is a personal planning preference, not a safety guarantee.
 Use these values only if this report was updated recently; otherwise flag it as STALE.
 
-2026-11-11: expected max UV 5.6; clear-sky max 5.6
- Morning: UV first reaches 4 during 11 AM–12 PM.
- Suggested departure: Aim to leave by 10:30 AM–10:45 AM.
- Clear-sky UV-4 interval: 10 AM–11 AM.
- Evening: UV is 3 or below by 4 PM.
- Clear-sky UV ≤3 by: 4 PM.
- Sunrise: 2026-11-11T06:49; Sunset: 2026-11-11T17:40.
- Hourly Eastern time — expected UV / clear-sky UV:
-  8 AM: 0.40 / 0.45
-  9 AM: 1.55 / 1.70
-  10 AM: 3.05 / 3.20
-  11 AM: 3.85 / 4.55
-  12 PM: 5.30 / 5.40
-  1 PM: 5.60 / 5.60
-  2 PM: 5.05 / 5.05
-  3 PM: 3.75 / 3.95
-  4 PM: 1.70 / 2.45
-  5 PM: 0.90 / 1.00
-  6 PM: 0.10 / 0.10
-  7 PM: 0.00 / 0.00
-
-2026-11-12: expected max UV 4.2; clear-sky max 5.55
+2026-11-12: expected max UV 4.6; clear-sky max 5.6
  Morning: UV first reaches 4 during 11 AM–12 PM.
  Suggested departure: Aim to leave by 10:30 AM–10:45 AM.
  Clear-sky UV-4 interval: 10 AM–11 AM.
@@ -34,37 +13,37 @@ Use these values only if this report was updated recently; otherwise flag it as 
  Clear-sky UV ≤3 by: 4 PM.
  Sunrise: 2026-11-12T06:49; Sunset: 2026-11-12T17:40.
  Hourly Eastern time — expected UV / clear-sky UV:
-  8 AM: 0.30 / 0.45
-  9 AM: 1.05 / 1.65
-  10 AM: 2.05 / 3.20
-  11 AM: 3.85 / 4.55
-  12 PM: 4.20 / 5.40
-  1 PM: 3.45 / 5.55
-  2 PM: 4.15 / 5.05
+  8 AM: 0.35 / 0.45
+  9 AM: 1.30 / 1.70
+  10 AM: 1.95 / 3.20
+  11 AM: 3.40 / 4.55
+  12 PM: 4.45 / 5.40
+  1 PM: 4.60 / 5.60
+  2 PM: 4.10 / 5.05
   3 PM: 2.85 / 3.90
-  4 PM: 1.65 / 2.40
-  5 PM: 0.45 / 1.00
+  4 PM: 2.05 / 2.45
+  5 PM: 0.95 / 1.00
   6 PM: 0.10 / 0.10
   7 PM: 0.00 / 0.00
 
-2026-11-13: expected max UV 5.2; clear-sky max 5.55
- Morning: UV first reaches 4 during 11 AM–12 PM.
- Suggested departure: Aim to leave by 10:30 AM–10:45 AM.
+2026-11-13: expected max UV 4.0; clear-sky max 5.55
+ Morning: UV first reaches 4 during 12 PM–1 PM.
+ Suggested departure: Aim to leave by 11:30 AM–11:45 AM.
  Clear-sky UV-4 interval: 10 AM–11 AM.
  Evening: UV is 3 or below by 4 PM.
  Clear-sky UV ≤3 by: 4 PM.
  Sunrise: 2026-11-13T06:50; Sunset: 2026-11-13T17:39.
  Hourly Eastern time — expected UV / clear-sky UV:
   8 AM: 0.35 / 0.40
-  9 AM: 1.30 / 1.65
-  10 AM: 2.45 / 3.15
-  11 AM: 3.95 / 4.50
-  12 PM: 4.50 / 5.35
-  1 PM: 5.20 / 5.55
-  2 PM: 4.10 / 5.00
-  3 PM: 3.80 / 3.90
-  4 PM: 2.40 / 2.40
-  5 PM: 1.00 / 1.00
+  9 AM: 1.55 / 1.65
+  10 AM: 2.95 / 3.15
+  11 AM: 3.30 / 4.50
+  12 PM: 3.15 / 5.35
+  1 PM: 4.00 / 5.55
+  2 PM: 4.00 / 5.00
+  3 PM: 3.60 / 3.90
+  4 PM: 2.10 / 2.40
+  5 PM: 0.95 / 1.00
   6 PM: 0.10 / 0.10
   7 PM: 0.00 / 0.00
 
@@ -80,12 +59,33 @@ Use these values only if this report was updated recently; otherwise flag it as 
   9 AM: 1.65 / 1.65
   10 AM: 3.15 / 3.15
   11 AM: 4.50 / 4.50
-  12 PM: 5.35 / 5.35
+  12 PM: 5.30 / 5.30
   1 PM: 5.50 / 5.50
   2 PM: 5.00 / 5.00
   3 PM: 3.75 / 3.85
-  4 PM: 2.40 / 2.40
+  4 PM: 2.35 / 2.40
   5 PM: 0.95 / 0.95
+  6 PM: 0.10 / 0.10
+  7 PM: 0.00 / 0.00
+
+2026-11-15: expected max UV 5.0; clear-sky max 5.4
+ Morning: UV first reaches 4 during 11 AM–12 PM.
+ Suggested departure: Aim to leave by 10:30 AM–10:45 AM.
+ Clear-sky UV-4 interval: 10 AM–11 AM.
+ Evening: UV is 3 or below by 3 PM.
+ Clear-sky UV ≤3 by: 4 PM.
+ Sunrise: 2026-11-15T06:52; Sunset: 2026-11-15T17:38.
+ Hourly Eastern time — expected UV / clear-sky UV:
+  8 AM: 0.35 / 0.40
+  9 AM: 1.50 / 1.60
+  10 AM: 2.10 / 3.05
+  11 AM: 3.35 / 4.35
+  12 PM: 5.00 / 5.20
+  1 PM: 5.00 / 5.40
+  2 PM: 4.10 / 4.85
+  3 PM: 2.25 / 3.75
+  4 PM: 1.20 / 2.35
+  5 PM: 0.90 / 0.95
   6 PM: 0.10 / 0.10
   7 PM: 0.00 / 0.00
 
