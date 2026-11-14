@@ -1,5 +1,5 @@
 {
-  "generated_et": "2026-11-13 12:45 PM EST",
+  "generated_et": "2026-11-14 03:02 PM EST",
   "source": "https://api.open-meteo.com/v1/forecast?latitude=27.643&longitude=-82.742&hourly=uv_index%2Cuv_index_clear_sky&daily=sunrise%2Csunset&timezone=America%2FNew_York&forecast_days=4",
   "requested_coordinates": [
     27.643,
@@ -11,85 +11,9 @@
   ],
   "days": [
     {
-      "date": "2026-11-13",
-      "daily_max": 5.5,
-      "daily_clear_sky_max": 5.5,
-      "sunrise": "2026-11-13T06:50",
-      "sunset": "2026-11-13T17:39",
-      "morning_uv4_interval": "10 AM\u201311 AM",
-      "morning_uv4_clear_sky_interval": "10 AM\u201311 AM",
-      "morning_summary": "UV first reaches 4 during 10 AM\u201311 AM",
-      "suggested_departure": "Aim to leave by 9:30 AM\u20139:45 AM",
-      "evening_first_uv3_hour": "4 PM",
-      "evening_first_clear_sky_uv3_hour": "4 PM",
-      "evening_summary": "UV is 3 or below by 4 PM",
-      "hourly": [
-        {
-          "hour": 8,
-          "uv": 0.4,
-          "clear": 0.4
-        },
-        {
-          "hour": 9,
-          "uv": 1.6,
-          "clear": 1.65
-        },
-        {
-          "hour": 10,
-          "uv": 3.15,
-          "clear": 3.15
-        },
-        {
-          "hour": 11,
-          "uv": 4.45,
-          "clear": 4.5
-        },
-        {
-          "hour": 12,
-          "uv": 5.25,
-          "clear": 5.35
-        },
-        {
-          "hour": 13,
-          "uv": 5.5,
-          "clear": 5.5
-        },
-        {
-          "hour": 14,
-          "uv": 5.0,
-          "clear": 5.0
-        },
-        {
-          "hour": 15,
-          "uv": 3.9,
-          "clear": 3.9
-        },
-        {
-          "hour": 16,
-          "uv": 2.4,
-          "clear": 2.4
-        },
-        {
-          "hour": 17,
-          "uv": 0.95,
-          "clear": 0.95
-        },
-        {
-          "hour": 18,
-          "uv": 0.1,
-          "clear": 0.1
-        },
-        {
-          "hour": 19,
-          "uv": 0.0,
-          "clear": 0.0
-        }
-      ]
-    },
-    {
       "date": "2026-11-14",
-      "daily_max": 5.15,
-      "daily_clear_sky_max": 5.5,
+      "daily_max": 5.3,
+      "daily_clear_sky_max": 5.45,
       "sunrise": "2026-11-14T06:51",
       "sunset": "2026-11-14T17:39",
       "morning_uv4_interval": "10 AM\u201311 AM",
@@ -117,27 +41,27 @@
         },
         {
           "hour": 11,
-          "uv": 4.4,
+          "uv": 4.45,
           "clear": 4.45
         },
         {
           "hour": 12,
-          "uv": 5.0,
+          "uv": 5.3,
           "clear": 5.3
         },
         {
           "hour": 13,
-          "uv": 5.15,
-          "clear": 5.5
+          "uv": 4.65,
+          "clear": 5.45
         },
         {
           "hour": 14,
           "uv": 4.85,
-          "clear": 5.0
+          "clear": 4.95
         },
         {
           "hour": 15,
-          "uv": 3.7,
+          "uv": 3.75,
           "clear": 3.85
         },
         {
@@ -193,8 +117,8 @@
         },
         {
           "hour": 11,
-          "uv": 4.4,
-          "clear": 4.4
+          "uv": 4.35,
+          "clear": 4.35
         },
         {
           "hour": 12,
@@ -240,71 +164,147 @@
     },
     {
       "date": "2026-11-16",
-      "daily_max": 4.8,
+      "daily_max": 3.8,
       "daily_clear_sky_max": 5.35,
       "sunrise": "2026-11-16T06:52",
       "sunset": "2026-11-16T17:38",
-      "morning_uv4_interval": "11 AM\u201312 PM",
+      "morning_uv4_interval": null,
       "morning_uv4_clear_sky_interval": "10 AM\u201311 AM",
-      "morning_summary": "UV first reaches 4 during 11 AM\u201312 PM",
-      "suggested_departure": "Aim to leave by 10:30 AM\u201310:45 AM",
-      "evening_first_uv3_hour": "3 PM",
+      "morning_summary": "Expected UV forecast stays below 4 throughout the day",
+      "suggested_departure": "For extra caution if clouds clear, aim to leave by 9:30 AM\u20139:45 AM",
+      "evening_first_uv3_hour": null,
       "evening_first_clear_sky_uv3_hour": "4 PM",
-      "evening_summary": "UV is 3 or below by 3 PM",
+      "evening_summary": "Expected UV remains below 4; check clear-sky hourly readings",
       "hourly": [
         {
           "hour": 8,
-          "uv": 0.25,
+          "uv": 0.35,
           "clear": 0.35
         },
         {
           "hour": 9,
-          "uv": 0.85,
+          "uv": 1.2,
           "clear": 1.55
         },
         {
           "hour": 10,
-          "uv": 2.0,
-          "clear": 3.05
+          "uv": 1.95,
+          "clear": 3.0
         },
         {
           "hour": 11,
-          "uv": 3.9,
+          "uv": 3.35,
           "clear": 4.35
         },
         {
           "hour": 12,
-          "uv": 4.8,
-          "clear": 5.2
+          "uv": 3.15,
+          "clear": 5.15
         },
         {
           "hour": 13,
-          "uv": 4.5,
+          "uv": 3.8,
           "clear": 5.35
         },
         {
           "hour": 14,
-          "uv": 3.7,
+          "uv": 3.8,
           "clear": 4.85
         },
         {
           "hour": 15,
-          "uv": 2.85,
+          "uv": 2.45,
           "clear": 3.75
         },
         {
           "hour": 16,
-          "uv": 1.9,
+          "uv": 1.2,
           "clear": 2.3
         },
         {
           "hour": 17,
-          "uv": 0.65,
+          "uv": 0.6,
           "clear": 0.9
         },
         {
           "hour": 18,
           "uv": 0.05,
+          "clear": 0.1
+        },
+        {
+          "hour": 19,
+          "uv": 0.0,
+          "clear": 0.0
+        }
+      ]
+    },
+    {
+      "date": "2026-11-17",
+      "daily_max": 5.35,
+      "daily_clear_sky_max": 5.35,
+      "sunrise": "2026-11-17T06:53",
+      "sunset": "2026-11-17T17:38",
+      "morning_uv4_interval": "10 AM\u201311 AM",
+      "morning_uv4_clear_sky_interval": "10 AM\u201311 AM",
+      "morning_summary": "UV first reaches 4 during 10 AM\u201311 AM",
+      "suggested_departure": "Aim to leave by 9:30 AM\u20139:45 AM",
+      "evening_first_uv3_hour": "4 PM",
+      "evening_first_clear_sky_uv3_hour": "4 PM",
+      "evening_summary": "UV is 3 or below by 4 PM",
+      "hourly": [
+        {
+          "hour": 8,
+          "uv": 0.1,
+          "clear": 0.35
+        },
+        {
+          "hour": 9,
+          "uv": 0.7,
+          "clear": 1.55
+        },
+        {
+          "hour": 10,
+          "uv": 2.8,
+          "clear": 3.0
+        },
+        {
+          "hour": 11,
+          "uv": 4.25,
+          "clear": 4.3
+        },
+        {
+          "hour": 12,
+          "uv": 5.15,
+          "clear": 5.15
+        },
+        {
+          "hour": 13,
+          "uv": 5.35,
+          "clear": 5.35
+        },
+        {
+          "hour": 14,
+          "uv": 4.85,
+          "clear": 4.85
+        },
+        {
+          "hour": 15,
+          "uv": 3.75,
+          "clear": 3.75
+        },
+        {
+          "hour": 16,
+          "uv": 2.35,
+          "clear": 2.35
+        },
+        {
+          "hour": 17,
+          "uv": 0.95,
+          "clear": 0.95
+        },
+        {
+          "hour": 18,
+          "uv": 0.1,
           "clear": 0.1
         },
         {
