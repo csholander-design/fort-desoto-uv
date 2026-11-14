@@ -8,6 +8,8 @@ from __future__ import annotations
 import argparse
 import html
 import json
+import time
+from urllib.error import HTTPError, URLError
 from datetime import datetime, timedelta
 from pathlib import Path
 from urllib.parse import urlencode
@@ -35,9 +37,25 @@ def api_url() -> str:
 
 
 def get_forecast() -> dict:
+    """Retry transient network failures without masking permanent API errors."""
     request = Request(api_url(), headers={"User-Agent": "NorthBeachUVPlanner/1.0", "Accept": "application/json"})
-    with urlopen(request, timeout=25) as response:
-        return json.load(response)
+    for attempt in range(1, 4):
+        try:
+            with urlopen(request, timeout=25) as response:
+                return json.load(response)
+        except HTTPError as exc:
+            # Only rate limits and server errors are likely to resolve on retry.
+            if exc.code != 429 and not 500 <= exc.code < 600:
+                raise
+            error = exc
+        except (URLError, TimeoutError) as exc:
+            error = exc
+        if attempt == 3:
+            raise error
+        delay = 5 * attempt
+        print(f"Open-Meteo attempt {attempt}/3 failed: {error}; retrying in {delay}s", flush=True)
+        time.sleep(delay)
+    raise RuntimeError("Open-Meteo request failed")
 
 
 def time_label(hour: int) -> str:
